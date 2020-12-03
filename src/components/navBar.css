@@ -1,0 +1,13 @@
+#navBar {
+  background-color: #1d1e2c;
+  text-decoration: none;
+
+  /* background-image: url("https://i.imgur.com/OP54uJZ.jpg"); */
+}
+
+#navBarImage {
+  max-height: 20px;
+  width: 40px;
+  object-fit: contain;
+  object-position: 5px;
+}

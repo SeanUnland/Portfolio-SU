@@ -1,0 +1,26 @@
+html {
+  background-color: #1d1e2c;
+  /* background-image: url("https://i.imgur.com/OP54uJZ.jpg"); */
+}
+
+#gatsby-focus-wrapper {
+  background-color: #1d1e2c;
+
+  /* background-image: url("https://i.imgur.com/OP54uJZ.jpg"); */
+}
+
+.bg-light {
+  background-color: #1d1e2c;
+
+  /* background-image: url("https://i.imgur.com/OP54uJZ.jpg"); */
+}
+
+.card {
+  background-color: #1d1e2c;
+
+  /* background-image: url("https://i.imgur.com/OP54uJZ.jpg"); */
+}
+
+img {
+  max-width: 40px;
+}
