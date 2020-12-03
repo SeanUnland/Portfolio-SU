@@ -27,7 +27,6 @@ module.exports = {
         accessToken: `TYnCbpUAKZMETexMYxja2NSz3HL2ma7X9zF651gt-1g`,
       },
     },
-  
 
     `gatsby-transformer-sharp`,
     `gatsby-plugin-sharp`,
@@ -45,5 +44,14 @@ module.exports = {
       },
     },
     `@contentful/gatsby-transformer-contentful-richtext`,
+
+    "gatsby-transformer-json",
+    {
+      resolve: `gatsby-source-filesystem`,
+      options: {
+        name: `data`,
+        path: `${__dirname}/src/data/`,
+      },
+    },
   ],
 }

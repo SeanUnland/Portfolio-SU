@@ -39,9 +39,7 @@ const NavBar = ({ children }) => {
               whileHover={{ scale: 1.2 }}
               whileTap={{ scale: 0.7 }}
             >
-              <ListLink style={{ textDecoration: "none" }} to="/">
-                Home
-              </ListLink>
+              <ListLink to="/">Home</ListLink>
             </motion.div>
           </Nav.Link>
 
