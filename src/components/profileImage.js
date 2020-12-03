@@ -6,14 +6,12 @@ const ProfileImage = props => {
   return (
     <div>
       <motion.img
-        // initial={{ scale: 0.0 }}
-        // animate={{ scale: 1.0 }}
-        transition={{ duration: 1 }}
+        initial={{ scale: 0.0 }}
         animate={{
-          scale: [1, 2, 2, 1, 1],
-          rotate: [0, 0, 270, 270, 0],
+          scale: 1.0,
           borderRadius: ["20%", "20%", "50%", "50%", "20%"],
         }}
+        transition={{ duration: 1 }}
         class="profileImage"
         src="https://i.imgur.com/QPcDYb9.jpg"
         alt="profile"

@@ -11,7 +11,7 @@
 
 #navBar {
   /* background-color: #eff0d1; */
-  animation: backgroundMove 15s infinite;
+  animation: backgroundMove 40s infinite;
 
   display: flex;
   justify-content: center;
@@ -26,9 +26,4 @@
   width: 40px;
   object-fit: contain;
   object-position: 5px;
-}
-
-.nav-link {
-  /* color: black; */
-  color: red;
 }

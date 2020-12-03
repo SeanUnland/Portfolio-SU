@@ -11,27 +11,27 @@
 
 html {
   /* background-color: #eff0d1; */
-  animation: backgroundMove 15s infinite;
+  animation: backgroundMove 40s infinite;
   font-family: "Anton", sans-serif;
 }
 
 #gatsby-focus-wrapper {
   /* background-color: #eff0d1; */
-  animation: backgroundMove 15s infinite;
+  animation: backgroundMove 40s infinite;
 
   /* background-image: url("https://i.imgur.com/OP54uJZ.jpg"); */
 }
 
 .bg-light {
   /* background-color: #eff0d1; */
-  animation: backgroundMove 15s infinite;
+  animation: backgroundMove 40s infinite;
 
   /* background-image: url("https://i.imgur.com/OP54uJZ.jpg"); */
 }
 
 .card {
   /* background-color: #eff0d1; */
-  animation: backgroundMove 15s infinite;
+  animation: backgroundMove 40s infinite;
 
   /* background-image: url("https://i.imgur.com/OP54uJZ.jpg"); */
 }
@@ -47,4 +47,56 @@ img {
   left: 20px;
   width: 120px;
   height: 120px;
+}
+
+#Sean {
+  font-size: 80px;
+  text-align: center;
+  font-family: "Anton", sans-serif;
+  letter-spacing: 8px;
+}
+
+/* animation for shiny letters on full stack... */
+@keyframes animate {
+  0% {
+    background-position: -500%;
+  }
+  100% {
+    background-position: 500%;
+  }
+}
+
+#fullStack {
+  font-size: 80px;
+  text-align: center;
+  font-family: "Anton", sans-serif;
+  letter-spacing: 8px;
+  /* effects for shiny letters */
+  position: relative;
+  background: linear-gradient(90deg, #4f6272, #eaeaea, #404e5c);
+  background-repeat: no-repeat;
+  background-size: 80%;
+  animation: animate 5s infinite;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: rgba(255, 255, 255, 0);
+}
+
+.socialButtons {
+  font-family: "Anton", sans-serif;
+  display: flex;
+  justify-content: center;
+  justify-content: space-between;
+
+  flex-direction: column;
+  letter-spacing: 10px;
+  padding: 50px;
+  margin: 40px;
+  border: 0px, 15px;
+}
+
+#contactMe {
+  font-size: 80px;
+  text-align: center;
+  font-family: "Anton", sans-serif;
+  letter-spacing: 8px;
 }

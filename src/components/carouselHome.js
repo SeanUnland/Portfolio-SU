@@ -4,7 +4,7 @@ import "./carousel.css"
 
 const CarouselHome = props => {
   return (
-    <div>
+    <div id="carousel">
       <Carousel>
         <Carousel.Item>
           <img
