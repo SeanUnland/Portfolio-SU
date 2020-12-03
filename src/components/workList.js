@@ -1,6 +1,7 @@
 import React from "react"
 import { useStaticQuery, graphql } from "gatsby"
 import { Card, Button } from "react-bootstrap"
+import "./workList.css"
 
 const WorkList = props => {
   const data = useStaticQuery(graphql`
@@ -19,7 +20,7 @@ const WorkList = props => {
   return (
     <>
       <div id="miniPopProject">
-        <Card style={{ width: "18rem" }}>
+        <Card style={{ width: "28rem" }}>
           <Card.Img variant="top" src="https://i.imgur.com/WZRSiyR.jpg" />
           <Card.Body>
             <Card.Title>Mini-Pop</Card.Title>
@@ -33,7 +34,7 @@ const WorkList = props => {
         </Card>
       </div>
       <div id="stickyTaskProject">
-        <Card style={{ width: "18rem" }}>
+        <Card style={{ width: "28rem" }}>
           <Card.Img variant="top" src="https://i.imgur.com/qNNTXao.jpg" />
           <Card.Body>
             <Card.Title>Sticky Task</Card.Title>
@@ -52,7 +53,7 @@ const WorkList = props => {
         </Card>
       </div>
       <div id="tunrApp">
-        <Card style={{ width: "18rem" }}>
+        <Card style={{ width: "28rem" }}>
           <Card.Img variant="top" src="https://i.imgur.com/SO56oPA.jpg" />
           <Card.Body>
             <Card.Title>TUNR</Card.Title>

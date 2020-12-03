@@ -1,0 +1,25 @@
+@import url("https://fonts.googleapis.com/css2?family=Anton&display=swap");
+
+#miniPopProject {
+  font-family: "Anton", sans-serif;
+  padding: 20px;
+  position: relative;
+  display: flex;
+  justify-content: center;
+}
+
+#stickyTaskProject {
+  font-family: "Anton", sans-serif;
+  padding: 20px;
+  position: relative;
+  display: flex;
+  justify-content: center;
+}
+
+#tunrApp {
+  font-family: "Anton", sans-serif;
+  padding: 20px;
+  position: relative;
+  display: flex;
+  justify-content: center;
+}

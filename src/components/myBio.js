@@ -3,6 +3,7 @@ import { Link } from "gatsby"
 import { motion } from "framer-motion"
 import { useStaticQuery, graphql } from "gatsby"
 import { Accordion, Card, Button } from "react-bootstrap"
+import "./myBio.css"
 
 import Header from "./header"
 
@@ -23,7 +24,7 @@ const MyBio = props => {
       <p>
         {data.allContentfulAboutMe.edges.map(edge => {
           return (
-            <motion.div>
+            <motion.div class="bioText">
               {/* <p>{edge.node.bio}</p> */}
               <Accordion>
                 <Card>

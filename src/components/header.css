@@ -1,4 +1,7 @@
+@import url("https://fonts.googleapis.com/css2?family=Anton&display=swap");
+
 #headers {
   /* margin-left: 70px; */
   text-align: center;
+  font-family: "Anton", sans-serif;
 }

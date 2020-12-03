@@ -1,7 +1,4 @@
-@font-face {
-  font-family: "MyWebFont";
-  src: url("https://www.dafont.com/sunshine-3.ttf") format("truetype");
-}
+@import url("https://fonts.googleapis.com/css2?family=Anton&display=swap");
 
 @keyframes backgroundMove {
   from {
@@ -15,8 +12,7 @@
 html {
   /* background-color: #eff0d1; */
   animation: backgroundMove 15s infinite;
-  /* background-image: url("https://i.imgur.com/OP54uJZ.jpg"); */
-  font-family: "MyWebFont", Sunshine;
+  font-family: "Anton", sans-serif;
 }
 
 #gatsby-focus-wrapper {
