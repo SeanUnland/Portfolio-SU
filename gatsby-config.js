@@ -45,7 +45,7 @@ module.exports = {
     },
     `@contentful/gatsby-transformer-contentful-richtext`,
 
-    "gatsby-transformer-json",
+    `gatsby-transformer-json`,
     {
       resolve: `gatsby-source-filesystem`,
       options: {
