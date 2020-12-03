@@ -44,14 +44,5 @@ module.exports = {
       },
     },
     `@contentful/gatsby-transformer-contentful-richtext`,
-
-    `gatsby-transformer-json`,
-    {
-      resolve: `gatsby-source-filesystem`,
-      options: {
-        name: `data`,
-        path: `/src/data/`,
-      },
-    },
   ],
 }
