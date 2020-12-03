@@ -15,7 +15,7 @@ const ListLink = props => (
 const NavBar = ({ children }) => {
   return (
     <div id="navBar">
-      <Navbar variant="light">
+      <Navbar variant="">
         <motion.div
           initial={{ scale: 3.0 }}
           animate={{ scale: 1.0 }}
@@ -36,9 +36,12 @@ const NavBar = ({ children }) => {
               initial={{ y: -200 }}
               animate={{ y: 0 }}
               transition={{ duration: 1 }}
-              whileHover={{ scale: 1.4 }}
+              whileHover={{ scale: 1.2 }}
+              whileTap={{ scale: 0.7 }}
             >
-              <ListLink to="/">Home</ListLink>
+              <ListLink style={{ textDecoration: "none" }} to="/">
+                Home
+              </ListLink>
             </motion.div>
           </Nav.Link>
 
@@ -47,7 +50,8 @@ const NavBar = ({ children }) => {
               initial={{ y: 1000 }}
               animate={{ y: 0 }}
               transition={{ duration: 1 }}
-              whileHover={{ scale: 1.4 }}
+              whileHover={{ scale: 1.2 }}
+              whileTap={{ scale: 0.7 }}
             >
               <ListLink to="/about/">About</ListLink>
             </motion.div>
@@ -58,7 +62,8 @@ const NavBar = ({ children }) => {
               initial={{ x: 1000 }}
               animate={{ x: 0 }}
               transition={{ duration: 1 }}
-              whileHover={{ scale: 1.4 }}
+              whileHover={{ scale: 1.2 }}
+              whileTap={{ scale: 0.7 }}
             >
               <ListLink to="/contact/">Contact</ListLink>
             </motion.div>
@@ -68,7 +73,8 @@ const NavBar = ({ children }) => {
               initial={{ x: -1000 }}
               animate={{ x: 0 }}
               transition={{ duration: 1 }}
-              whileHover={{ scale: 1.4 }}
+              whileHover={{ scale: 1.2 }}
+              whileTap={{ scale: 0.9 }}
             >
               <ListLink to="/work/">Work</ListLink>
             </motion.div>

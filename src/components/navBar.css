@@ -1,5 +1,16 @@
+@keyframes backgroundMove {
+  from {
+    background-color: #fdfffc;
+  }
+  to {
+    background-color: #30292f;
+  }
+}
+
 #navBar {
-  background-color: #eff0d1;
+  /* background-color: #eff0d1; */
+  animation: backgroundMove 15s infinite;
+
   display: flex;
   justify-content: center;
   font-size: 30px;
@@ -11,4 +22,8 @@
   width: 40px;
   object-fit: contain;
   object-position: 5px;
+}
+
+.nav-link {
+  color: black;
 }

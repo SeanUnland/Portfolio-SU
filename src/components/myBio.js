@@ -1,5 +1,6 @@
 import React from "react"
 import { Link } from "gatsby"
+import { motion } from "framer-motion"
 import { useStaticQuery, graphql } from "gatsby"
 import { Accordion, Card, Button } from "react-bootstrap"
 
@@ -22,7 +23,7 @@ const MyBio = props => {
       <p>
         {data.allContentfulAboutMe.edges.map(edge => {
           return (
-            <div>
+            <motion.div>
               {/* <p>{edge.node.bio}</p> */}
               <Accordion>
                 <Card>
@@ -36,7 +37,7 @@ const MyBio = props => {
                   </Accordion.Collapse>
                 </Card>
               </Accordion>
-            </div>
+            </motion.div>
           )
         })}
       </p>

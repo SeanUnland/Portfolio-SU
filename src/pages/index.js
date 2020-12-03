@@ -16,7 +16,7 @@ const Home = () => {
         <ProfileImage />
         <Header headerText="Sean Unland" />
         <Header headerText="Full Stack Developer" />
-        <Header headerText="" />
+
         <CarouselHome />
 
         <div>
