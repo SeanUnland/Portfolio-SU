@@ -17,14 +17,15 @@ const Home = () => {
         <ProfileImage />
         {/* <Header headerText="Sean Unland" /> */}
         <h1 id="Sean">
-          <motion.span
-            initial={{}}
-            animate={{ y: 30, color: "#EAEAEA" }}
-            // transition={{ yoyo: 10 }}
+          <motion.div
+            animate={{ scale: 1, color: "#EAEAEA" }}
+            // transition={{ yoyo: 10, duration: 1 }}
           >
-            Sean
-          </motion.span>
-          <motion.span animate={{ color: "#404E5C" }}>Unland</motion.span>
+            <motion.span>Sean</motion.span>
+          </motion.div>
+          <motion.div id="unland" animate={{ color: "#404E5C" }}>
+            <span>Unland</span>
+          </motion.div>
         </h1>
         {/* <Header headerText="Full Stack Developer" /> */}
         <h1 id="fullStack">Full Stack Developer</h1>
