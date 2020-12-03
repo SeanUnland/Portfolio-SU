@@ -12,16 +12,17 @@ import NavBar from "../components/navBar"
 import WorkList from "../components/workList"
 
 const Work = () => {
+  // this is all for the framer animation
   const { scrollYProgress } = useViewportScroll()
   const [isComplete, setIsComplete] = React.useState(false)
   const yRange = useTransform(scrollYProgress, [0, 0.9], [0, 1])
   const pathLength = useSpring(yRange, { stiffness: 400, damping: 90 })
   React.useEffect(() => yRange.onChange(v => setIsComplete(v >= 1)), [yRange])
+  // end of framer animation functions
 
   return (
     <div style={{ margin: `3rem auto`, maxWidth: 600 }}>
       <NavBar />
-
       <Layout>
         <Header headerText="Things I've Created" />{" "}
         {/* <a href="https://mini-pop.netlify.app/">Mini-Pop</a> */}
