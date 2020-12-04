@@ -18,8 +18,6 @@ html {
 #gatsby-focus-wrapper {
   /* background-color: #eff0d1; */
   animation: backgroundMove 40s infinite;
-
-  /* background-image: url("https://i.imgur.com/OP54uJZ.jpg"); */
 }
 
 .bg-light {
@@ -63,15 +61,20 @@ img {
   letter-spacing: 8px;
 }
 
+#whatImUpToHeading {
+  text-align: center;
+  font-family: "Anton", sans-serif;
+}
+
 /* animation for shiny letters on full stack... */
-@keyframes animate {
+/* @keyframes animate {
   0% {
     background-position: -500%;
   }
   100% {
     background-position: 500%;
   }
-}
+} */
 
 #fullStack {
   font-size: 80px;
@@ -79,13 +82,13 @@ img {
   font-family: "Anton", sans-serif;
   letter-spacing: 8px;
   /* effects for shiny letters */
-  position: relative;
+  /* position: relative;
   background: linear-gradient(90deg, #4f6272, #eaeaea, #404e5c);
   background-repeat: no-repeat;
   background-size: 80%;
   animation: animate 5s infinite;
   -webkit-background-clip: text;
-  -webkit-text-fill-color: rgba(255, 255, 255, 0);
+  -webkit-text-fill-color: rgba(255, 255, 255, 0); */
 }
 
 .socialButtons {

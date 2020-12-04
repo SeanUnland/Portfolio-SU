@@ -45,6 +45,18 @@ const NavBar = ({ children }) => {
 
           <Nav.Link>
             <motion.div
+              initial={{ x: -1000 }}
+              animate={{ x: 0 }}
+              transition={{ duration: 1 }}
+              whileHover={{ scale: 1.2 }}
+              whileTap={{ scale: 0.9 }}
+            >
+              <ListLink to="/work/">Work</ListLink>
+            </motion.div>
+          </Nav.Link>
+
+          <Nav.Link>
+            <motion.div
               initial={{ y: 1000 }}
               animate={{ y: 0 }}
               transition={{ duration: 1 }}
@@ -64,17 +76,6 @@ const NavBar = ({ children }) => {
               whileTap={{ scale: 0.7 }}
             >
               <ListLink to="/contact/">Contact</ListLink>
-            </motion.div>
-          </Nav.Link>
-          <Nav.Link>
-            <motion.div
-              initial={{ x: -1000 }}
-              animate={{ x: 0 }}
-              transition={{ duration: 1 }}
-              whileHover={{ scale: 1.2 }}
-              whileTap={{ scale: 0.9 }}
-            >
-              <ListLink to="/work/">Work</ListLink>
             </motion.div>
           </Nav.Link>
         </Nav>

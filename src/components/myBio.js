@@ -13,7 +13,12 @@ const MyBio = props => {
       allContentfulAboutMe {
         edges {
           node {
-            bio
+            bioLong {
+              bioLong
+            }
+            bioSectionTwo {
+              bioSectionTwo
+            }
           }
         }
       }
@@ -25,8 +30,10 @@ const MyBio = props => {
         {data.allContentfulAboutMe.edges.map(edge => {
           return (
             <motion.div class="bioText">
-              {/* <p>{edge.node.bio}</p> */}
-              <Accordion>
+              <p>{edge.node.bioLong.bioLong}</p>
+              <p>{edge.node.bioSectionTwo.bioSectionTwo}</p>
+
+              {/* <Accordion>
                 <Card>
                   <Card.Header>
                     <Accordion.Toggle as={Button} variant="link" eventKey="0">
@@ -34,10 +41,10 @@ const MyBio = props => {
                     </Accordion.Toggle>
                   </Card.Header>
                   <Accordion.Collapse eventKey="0">
-                    <Card.Body>{edge.node.bio}</Card.Body>
+                    <Card.Body>{edge.node.bioLong.bioLong}</Card.Body>
                   </Accordion.Collapse>
                 </Card>
-              </Accordion>
+              </Accordion> */}
             </motion.div>
           )
         })}
