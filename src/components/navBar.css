@@ -14,8 +14,10 @@
   animation: backgroundMove 40s infinite;
 
   display: flex;
-  justify-items: right;
-  margin-left: 880px;
+  /* justify-items: right; */
+  justify-content: right;
+  position: relative;
+  /* margin-left: 600px; */
   font-size: 30px;
   text-decoration: none;
   font-family: "Anton", sans-serif;
