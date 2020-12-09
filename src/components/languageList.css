@@ -4,3 +4,26 @@
   display: inline;
   font-family: "Anton", sans-serif;
 }
+
+.card {
+  background-color: #eeebd3;
+
+  /* animation: backgroundMove 40s infinite; */
+}
+
+@keyframes colorMove {
+  from {
+    color: #255957;
+  }
+  to {
+    color: #437c90;
+  }
+}
+
+.btn-link {
+  color: black;
+}
+
+.btn-link:hover {
+  animation: colorMove 5s infinite;
+}

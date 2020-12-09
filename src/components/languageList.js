@@ -2,6 +2,7 @@ import React from "react"
 import { Link } from "gatsby"
 import { useStaticQuery, graphql } from "gatsby"
 import { Accordion, Card, Button } from "react-bootstrap"
+import { motion } from "framer-motion"
 
 import Header from "./header"
 import "./languageList.css"
@@ -32,9 +33,15 @@ const LanguageList = props => {
                 <Accordion>
                   <Card>
                     <Card.Header>
-                      <Accordion.Toggle as={Button} variant="link" eventKey="0">
-                        My Languages
-                      </Accordion.Toggle>
+                      <motion.div whileHover={{ scale: 1.2, x: 20 }}>
+                        <Accordion.Toggle
+                          as={Button}
+                          variant="link"
+                          eventKey="0"
+                        >
+                          My Languages
+                        </Accordion.Toggle>
+                      </motion.div>
                     </Card.Header>
                     <Accordion.Collapse eventKey="0">
                       <Card.Body id="languageList">

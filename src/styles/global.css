@@ -31,6 +31,10 @@ html {
   /* animation: backgroundMove 40s infinite; */
 }
 
+.card-header {
+  background-color: #eeebd3;
+}
+
 img {
   max-width: 40px;
 }
