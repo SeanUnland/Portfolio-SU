@@ -27,8 +27,9 @@ const LanguageList = props => {
       <p>
         {data.allContentfulAboutMe.edges.map(edge => {
           return (
-            <div>
+            <div class="list-of-skills">
               <ul>{edge.node.languages.languages}</ul>
+
               <div>
                 {/* <Accordion>
                   <Card>
