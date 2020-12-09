@@ -6,6 +6,7 @@ import CarouselHome from "../components/carouselHome"
 import ProfileImage from "../components/profileImage"
 import WhatImUpTo from "../components/whatImUpTo"
 // import MyBio from "../components/myBio"
+import Footer from "../components/footer"
 import "bootstrap/dist/css/bootstrap.min.css"
 import { motion } from "framer-motion"
 
