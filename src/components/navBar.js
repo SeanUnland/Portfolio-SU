@@ -23,11 +23,11 @@ const NavBar = ({ children }) => {
           drag
         >
           <Navbar.Brand href="#home">
-            <img
+            {/* <img
               id="navBarImage"
               src="https://i.imgur.com/GmSVPNBs.jpg"
               alt=""
-            ></img>
+            ></img> */}
           </Navbar.Brand>
         </motion.div>
         <Nav className="mr-auto">
