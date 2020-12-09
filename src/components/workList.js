@@ -25,7 +25,7 @@ const WorkList = props => {
           <Card.Body>
             <Card.Title>Mini-Pop</Card.Title>
             <Card.Text>
-              A synth step sequencer I created using Tone.js and React.
+              A synth step sequencer Built using Tone.js and React
             </Card.Text>
             <Button href="https://mini-pop.netlify.app/" variant="outline-dark">
               Mini-Pop

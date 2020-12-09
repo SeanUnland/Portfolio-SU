@@ -28,9 +28,9 @@ const LanguageList = props => {
         {data.allContentfulAboutMe.edges.map(edge => {
           return (
             <div>
-              {/* <ul>{edge.node.languages.languages}</ul> */}
+              <ul>{edge.node.languages.languages}</ul>
               <div>
-                <Accordion>
+                {/* <Accordion>
                   <Card>
                     <Card.Header>
                       <motion.div whileHover={{ scale: 1.2, x: 20 }}>
@@ -49,7 +49,7 @@ const LanguageList = props => {
                       </Card.Body>
                     </Accordion.Collapse>
                   </Card>
-                </Accordion>
+                </Accordion> */}
               </div>
             </div>
           )

@@ -9,7 +9,7 @@ const ProfileImage = props => {
         initial={{ scale: 0.0 }}
         animate={{
           y: -160,
-          x: 20,
+          x: 30,
           scale: 1.3,
           borderRadius: ["20%", "20%", "50%", "50%", "20%"],
         }}
