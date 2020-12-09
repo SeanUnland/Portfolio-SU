@@ -20,7 +20,7 @@ export default function About() {
           </section>
           <section id="imProficientIn">
             <Container>
-              <Header headerText="My Technical Skills" />
+              <Header headerText="Technical Skills" />
             </Container>
           </section>
           <section id="languageList">
