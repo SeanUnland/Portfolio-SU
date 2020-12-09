@@ -9,20 +9,21 @@
   }
 } */
 
+.navbar {
+  position: sticky;
+  top: 0;
+}
+
 #navBar {
   background-color: #eeebd3;
-
-  /* animation: backgroundMove 40s infinite; */
-
   display: flex;
-  /* justify-items: right; */
+
   justify-content: right;
   position: relative;
   /* margin-left: 600px; */
   font-size: 30px;
   text-decoration: none;
   font-family: "Anton", sans-serif;
-  color: red;
 }
 
 #navBarImage {
