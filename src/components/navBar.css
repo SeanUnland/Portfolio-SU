@@ -1,17 +1,18 @@
 @import url("https://fonts.googleapis.com/css2?family=Anton&display=swap");
 
-@keyframes backgroundMove {
+/* @keyframes backgroundMove {
   from {
     background-color: #fdfffc;
   }
   to {
     background-color: #30292f;
   }
-}
+} */
 
 #navBar {
-  /* background-color: #eff0d1; */
-  animation: backgroundMove 40s infinite;
+  background-color: #eeebd3;
+
+  /* animation: backgroundMove 40s infinite; */
 
   display: flex;
   /* justify-items: right; */
@@ -29,4 +30,22 @@
   width: 40px;
   object-fit: contain;
   object-position: 5px;
+}
+
+@keyframes colorMove {
+  from {
+    color: #255957;
+  }
+  to {
+    color: #437c90;
+  }
+}
+
+a {
+  color: #eeebd3;
+  text-decoration: none;
+}
+
+a:hover {
+  animation: colorMove 10s infinite;
 }

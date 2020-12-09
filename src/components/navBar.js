@@ -15,12 +15,11 @@ const ListLink = props => (
 const NavBar = ({ children }) => {
   return (
     <div id="navBar">
-      <Navbar variant="">
+      <Navbar>
         <motion.div
           initial={{ scale: 3.0 }}
           animate={{ scale: 1.0 }}
           transition={{ duration: 1 }}
-          drag
         >
           <Navbar.Brand href="#home">
             {/* <img
@@ -38,6 +37,7 @@ const NavBar = ({ children }) => {
               transition={{ duration: 1 }}
               whileHover={{ scale: 1.2 }}
               whileTap={{ scale: 0.7 }}
+              // whileHover={{ color: "#fb5607" }}
             >
               <ListLink to="/">Home</ListLink>
             </motion.div>

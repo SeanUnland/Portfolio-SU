@@ -18,10 +18,14 @@ const Home = () => {
       <Layout>
         {/* <Header headerText="Sean Unland" /> */}
         <h1 id="Sean">
-          <motion.div animate={{ y: -110, scale: 1, color: "#EAEAEA" }}>
+          <motion.div animate={{ y: -110, scale: 1, color: "#437C90" }}>
             <motion.span>Sean</motion.span>
           </motion.div>
-          <motion.div id="unland" animate={{ y: -140, color: "#404E5C" }}>
+          <motion.div
+            id="unland"
+            animate={{ y: -140, color: "#404E5C" }}
+            whileHover={{ color: "#A98743" }}
+          >
             <span>Unland</span>
           </motion.div>
         </h1>
