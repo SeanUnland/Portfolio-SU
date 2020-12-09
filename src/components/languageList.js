@@ -39,7 +39,7 @@ const LanguageList = props => {
                           variant="link"
                           eventKey="0"
                         >
-                          My Languages
+                          Technical Skills
                         </Accordion.Toggle>
                       </motion.div>
                     </Card.Header>
