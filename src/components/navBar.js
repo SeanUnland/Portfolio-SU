@@ -32,9 +32,9 @@ const NavBar = ({ children }) => {
         <Nav className="mr-auto">
           <Nav.Link>
             <motion.div
-              initial={{ y: -200 }}
-              animate={{ y: 0 }}
-              transition={{ duration: 1 }}
+              // initial={{ y: -200 }}
+              // animate={{ y: 0 }}
+              // transition={{ duration: 1 }}
               whileHover={{ scale: 1.2 }}
               whileTap={{ scale: 0.7 }}
               // whileHover={{ color: "#fb5607" }}
@@ -45,9 +45,9 @@ const NavBar = ({ children }) => {
 
           <Nav.Link>
             <motion.div
-              initial={{ x: -1000 }}
-              animate={{ x: 0 }}
-              transition={{ duration: 1 }}
+              // initial={{ x: -1000 }}
+              // animate={{ x: 0 }}
+              // transition={{ duration: 1 }}
               whileHover={{ scale: 1.2 }}
               whileTap={{ scale: 0.9 }}
             >
@@ -57,9 +57,9 @@ const NavBar = ({ children }) => {
 
           <Nav.Link>
             <motion.div
-              initial={{ y: 1000 }}
-              animate={{ y: 0 }}
-              transition={{ duration: 1 }}
+              // initial={{ y: 1000 }}
+              // animate={{ y: 0 }}
+              // transition={{ duration: 1 }}
               whileHover={{ scale: 1.2 }}
               whileTap={{ scale: 0.7 }}
             >
@@ -69,9 +69,9 @@ const NavBar = ({ children }) => {
 
           <Nav.Link>
             <motion.div
-              initial={{ x: 1000 }}
-              animate={{ x: 0 }}
-              transition={{ duration: 1 }}
+              // initial={{ x: 1000 }}
+              // animate={{ x: 0 }}
+              // transition={{ duration: 1 }}
               whileHover={{ scale: 1.2 }}
               whileTap={{ scale: 0.7 }}
             >
