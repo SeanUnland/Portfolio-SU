@@ -10,6 +10,7 @@ import Header from "../components/header"
 import Layout from "../components/layout"
 import NavBar from "../components/navBar"
 import WorkList from "../components/workList"
+import Footer from "../components/footer"
 
 const Work = () => {
   // this is all for the framer animation
@@ -53,6 +54,7 @@ const Work = () => {
           />
         </svg>
       </Layout>
+      <Footer />
       {/* </motion.path> */}
     </div>
   )

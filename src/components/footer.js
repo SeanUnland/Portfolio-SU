@@ -1,10 +1,10 @@
 import React from "react"
+import "./footer.css"
 
 const Footer = props => {
   return (
-    <div>
-      <p>© 2020</p>
-      <p>Sean Unland</p>
+    <div id="footer">
+      <p>© 2020 Sean Unland</p>
     </div>
   )
 }

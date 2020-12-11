@@ -42,6 +42,7 @@ const Home = () => {
 
         <div></div>
       </Layout>
+      <Footer />
     </div>
   )
 }

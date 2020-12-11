@@ -6,6 +6,7 @@ import Header from "../components/header"
 import Layout from "../components/layout"
 import LanguageList from "../components/languageList"
 import MyBio from "../components/myBio"
+import Footer from "../components/footer"
 import NavBar from "../components/navBar"
 
 export default function About() {
@@ -28,6 +29,7 @@ export default function About() {
           </section>
         </div>
       </Layout>
+      <Footer />
     </div>
   )
 }

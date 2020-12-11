@@ -3,6 +3,7 @@ import React from "react"
 import Header from "../components/header"
 import Layout from "../components/layout"
 import Button from "react-bootstrap/Button"
+import Footer from "../components/footer"
 import NavBar from "../components/navBar"
 
 import ContactList from "../components/contactList"
@@ -30,6 +31,7 @@ const Contact = () => {
           </Button>
         </div>
       </Layout>
+      <Footer />
     </div>
   )
 }
