@@ -8,6 +8,7 @@ import LanguageList from "../components/languageList"
 import MyBio from "../components/myBio"
 import Footer from "../components/footer"
 import NavBar from "../components/navBar"
+import Resume from "../components/resume"
 
 export default function About() {
   return (
@@ -26,6 +27,10 @@ export default function About() {
           </section>
           <section id="languageList">
             <LanguageList />
+          </section>
+          <section>
+            <Header headerText="Resume"/>
+            <Resume />
           </section>
         </div>
       </Layout>

@@ -1,6 +1,7 @@
 import React from "react"
 import { useStaticQuery, graphql } from "gatsby"
 import { Card, Button } from "react-bootstrap"
+import {motion} from "framer-motion"
 import "./workList.css"
 
 const WorkList = props => {
@@ -27,12 +28,15 @@ const WorkList = props => {
             <Card.Text>
               A synth step sequencer and sampler.
               <br />
-              Built using Tone.js and React
+              Built using Tone.js, React, Framer Motion, and Start Audio Context
             </Card.Text>
-            <Button href="https://mini-pop.netlify.app/" variant="outline-dark">
+            <Button 
+            
+            href="https://mini-pop.netlify.app/" variant="outline-dark">
               Mini-Pop
             </Button>
             <Button
+            
               href="https://github.com/SeanUnland/unit-4-project-mini-pop"
               variant="outline-dark"
             >
@@ -49,15 +53,17 @@ const WorkList = props => {
             <Card.Text>
               A task manager app that enables a user to assign and delete tasks.
               <br />
-              Built with React and Express
+              Built with React, Express, Bootstrap, and Framer Motion
             </Card.Text>
             <Button
+            
               href="https://sticky-task.netlify.app/"
               variant="outline-dark"
             >
               Sticky Task
             </Button>
             <Button
+            
               href="https://github.com/E-Shelton98/StickyTask-Frontend"
               variant="outline-dark"
             >
@@ -76,10 +82,13 @@ const WorkList = props => {
               <br />
               Built using React and Ruby on Rails
             </Card.Text>
-            <Button href="https://tunr-su.netlify.app/" variant="outline-dark">
+            <Button 
+            
+            href="https://tunr-su.netlify.app/" variant="outline-dark">
               TUNR
             </Button>
             <Button
+            
               href="https://github.com/SeanUnland/rails-mini-project-frontend"
               variant="outline-dark"
             >

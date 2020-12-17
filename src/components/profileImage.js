@@ -8,9 +8,9 @@ const ProfileImage = props => {
       <motion.img
         initial={{ scale: 0.0 }}
         animate={{
-          y: -160,
-          x: 30,
-          scale: 1.3,
+          y: -120,
+          x: 40,
+          scale: 1.5,
           borderRadius: ["20%", "20%", "50%", "50%", "20%"],
         }}
         transition={{ duration: 1 }}
