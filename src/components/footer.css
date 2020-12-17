@@ -1,11 +1,37 @@
+@import url("https://fonts.googleapis.com/css2?family=Anton&display=swap");
+
+
 #footer {
   /* background-color: black; */
   color: black;
   text-align: center;
   display: flex;
   justify-content: center;
- 
+  font-family: "Anton", sans-serif;
  border-top-style: groove;
   /* display: inline; */
   /* background-color: #eeebd3; */
+}
+
+
+
+img {
+  display: flex;
+  /* justify-content: flex-end; */
+  /* justify-content: space-between; */
+}
+
+
+
+#linkedIn {
+  display: flex;
+  justify-content: flex-end;
+  justify-content: space-between;
+
+  height: 25px;
+  text-decoration: none;
+}
+
+#gitHub {
+  height: 25px;
 }
