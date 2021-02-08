@@ -16,6 +16,14 @@
   justify-content: center;
 }
 
+#bullCowProject {
+  font-family: "Anton", sans-serif;
+  padding: 20px;
+  position: relative;
+  display: flex;
+  justify-content: center;
+}
+
 #tunrApp {
   font-family: "Anton", sans-serif;
   padding: 20px;

@@ -45,6 +45,7 @@ const WorkList = props => {
           </Card.Body>
         </Card>
       </div>
+
       <div id="stickyTaskProject">
         <Card style={{ width: "28rem" }}>
           <Card.Img variant="top" src="https://i.imgur.com/qNNTXao.jpg" />
@@ -72,6 +73,32 @@ const WorkList = props => {
           </Card.Body>
         </Card>
       </div>
+
+      <div id="bullCowProject">
+        <Card style={{ width: "28rem" }}>
+          <Card.Img variant="top" src="https://i.imgur.com/bIOxDih.jpg" />
+          <Card.Body>
+            <Card.Title>Bull Cow Game</Card.Title>
+            <Card.Text>
+              A word guessing game.
+              <br />
+              Built with C++ and Unreal Engine
+            </Card.Text>
+            <Button
+              variant="outline-dark"
+            >
+              Bull Cow Game
+            </Button>
+            <Button
+              href="https://github.com/SeanUnland/BullCowGame"
+              variant="outline-dark"
+            >
+              Code
+            </Button>
+          </Card.Body>
+        </Card>
+      </div>
+
       <div id="tunrApp">
         <Card style={{ width: "28rem" }}>
           <Card.Img variant="top" src="https://i.imgur.com/SO56oPA.jpg" />
