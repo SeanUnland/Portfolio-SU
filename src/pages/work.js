@@ -25,7 +25,7 @@ const Work = () => {
     <div style={{ margin: `3rem auto`, maxWidth: 600 }}>
       <NavBar />
       <Layout>
-        <Header headerText="Things I've Created" />{" "}
+        <Header headerText="Things I've Coded" />{" "}
         {/* <a href="https://mini-pop.netlify.app/">Mini-Pop</a> */}
         <WorkList />
         <svg className="progress-icon" viewBox="0 0 60 60">

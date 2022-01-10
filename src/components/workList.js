@@ -1,7 +1,7 @@
 import React from "react"
 import { useStaticQuery, graphql } from "gatsby"
 import { Card, Button } from "react-bootstrap"
-import {motion} from "framer-motion"
+import { motion } from "framer-motion"
 import "./workList.css"
 
 const WorkList = props => {
@@ -20,6 +20,23 @@ const WorkList = props => {
   `)
   return (
     <>
+      <div id="GEHASolutions">
+        <Card style={{ width: "28rem" }}>
+          <Card.Img variant="top" src="https://i.imgur.com/Ryf6IUj.png" />
+          <Card.Body>
+            <Card.Title>GEHA Solutions</Card.Title>
+            <Card.Text>
+              A government employee healthcare company.
+              <br />
+              Designed using SASS, CSS, and SXA through Sitecore.
+            </Card.Text>
+            <Button href="https://gehasolutions.com/" variant="outline-dark">
+              GEHA Solutions
+            </Button>
+          </Card.Body>
+        </Card>
+      </div>
+
       <div id="miniPopProject">
         <Card style={{ width: "28rem" }}>
           <Card.Img variant="top" src="https://i.imgur.com/WZRSiyR.jpg" />
@@ -30,13 +47,10 @@ const WorkList = props => {
               <br />
               Built using Tone.js, React, Framer Motion, and Start Audio Context
             </Card.Text>
-            <Button 
-            
-            href="https://mini-pop.netlify.app/" variant="outline-dark">
+            <Button href="https://mini-pop.netlify.app/" variant="outline-dark">
               Mini-Pop
             </Button>
             <Button
-            
               href="https://github.com/SeanUnland/unit-4-project-mini-pop"
               variant="outline-dark"
             >
@@ -57,14 +71,12 @@ const WorkList = props => {
               Built with React, Express, Bootstrap, and Framer Motion
             </Card.Text>
             <Button
-            
               href="https://sticky-task.netlify.app/"
               variant="outline-dark"
             >
               Sticky Task
             </Button>
             <Button
-            
               href="https://github.com/E-Shelton98/StickyTask-Frontend"
               variant="outline-dark"
             >
@@ -84,11 +96,7 @@ const WorkList = props => {
               <br />
               Built with C++ and Unreal Engine
             </Card.Text>
-            <Button
-              variant="outline-dark"
-            >
-              Bull Cow Game
-            </Button>
+            <Button variant="outline-dark">Bull Cow Game</Button>
             <Button
               href="https://github.com/SeanUnland/BullCowGame"
               variant="outline-dark"
@@ -109,13 +117,10 @@ const WorkList = props => {
               <br />
               Built using React and Ruby on Rails
             </Card.Text>
-            <Button 
-            
-            href="https://tunr-su.netlify.app/" variant="outline-dark">
+            <Button href="https://tunr-su.netlify.app/" variant="outline-dark">
               TUNR
             </Button>
             <Button
-            
               href="https://github.com/SeanUnland/rails-mini-project-frontend"
               variant="outline-dark"
             >
