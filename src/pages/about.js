@@ -29,7 +29,7 @@ export default function About() {
             <LanguageList />
           </section>
           <section>
-            <Header headerText="Resume"/>
+            <Header headerText="Resume" />
             <Resume />
           </section>
         </div>
